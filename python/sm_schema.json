@@ -1,0 +1,21 @@
+[
+  { "name": "name", "type": "STRING" },
+  { "name": "assetType", "type": "STRING" },
+  {
+    "name": "replicas",
+    "type": "RECORD",
+    "mode": "REPEATED",
+    "fields": [
+      {
+        "name": "customerManagedEncryption",
+        "type": "RECORD",
+        "fields": [
+          { "name": "kmsKeyVersionName", "type": "STRING" },
+          { "name": "location", "type": "STRING" }
+        ]
+      }
+    ]
+  },
+  { "name": "state", "type": "STRING" },
+  { "name": "createTime", "type": "TIMESTAMP" }
+]

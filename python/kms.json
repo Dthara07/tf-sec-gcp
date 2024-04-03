@@ -1,0 +1,39 @@
+{
+  "asset": {
+    "ancestors": ["projects/195986429354"],
+    "assetType": "cloudkms.googleapis.com/CryptoKey",
+    "name": "//cloudkms.googleapis.com/projects/graphite-cell-417208/locations/europe-west2/keyRings/test-1-krs/cryptoKeys/test-06-key",
+    "resource": {
+      "data": {
+        "createTime": "2024-03-22T21:11:59.979415654Z",
+        "destroyScheduledDuration": "2592000s",
+        "name": "projects/graphite-cell-417208/locations/europe-west2/keyRings/test-1-krs/cryptoKeys/test-06-key",
+        "nextRotationTime": "2024-06-19T23:00:00Z",
+        "primary": {
+          "algorithm": "GOOGLE_SYMMETRIC_ENCRYPTION",
+          "createTime": "2024-03-22T21:11:59.979415654Z",
+          "generateTime": "2024-03-22T21:11:59.979415654Z",
+          "name": "projects/graphite-cell-417208/locations/europe-west2/keyRings/test-1-krs/cryptoKeys/test-06-key/cryptoKeyVersions/1",
+          "protectionLevel": "SOFTWARE",
+          "state": "ENABLED"
+        },
+        "purpose": "ENCRYPT_DECRYPT",
+        "rotationPeriod": "7776000s",
+        "versionTemplate": {
+          "algorithm": "GOOGLE_SYMMETRIC_ENCRYPTION",
+          "protectionLevel": "SOFTWARE"
+        }
+      },
+      "discoveryDocumentUri": "https://cloudkms.googleapis.com/$discovery/rest",
+      "discoveryName": "CryptoKey",
+      "location": "europe-west2",
+      "parent": "//cloudkms.googleapis.com/projects/graphite-cell-417208/locations/europe-west2/keyRings/test-1-krs",
+      "version": "v1"
+    },
+    "updateTime": "2024-03-22T21:11:59.979415654Z"
+  },
+  "priorAssetState": "DOES_NOT_EXIST",
+  "window": {
+    "startTime": "2024-03-22T21:11:59.979415654Z"
+  }
+}

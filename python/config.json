@@ -1,0 +1,19 @@
+{
+  "kms_schema": [
+    "name",
+    "assetType",
+    "location",
+    "parent",
+    "state",
+    "createTime",
+    "rotationPeriod",
+    "nextRotationTime",
+    "destroyScheduledDuration",
+    "protectionLevel",
+    "algorithm",
+    "purpose"
+  ],
+  "replicationStatus": [],
+  "sm_schema": ["name", "assetType", "replicas", "state", "createTime"],
+  "dataset_id": "spc_sec_asset_dataset"
+}
